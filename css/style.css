@@ -1,0 +1,19 @@
+html {
+    width: 100%;
+}
+
+body{
+    width: 100%;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 33% 66%;
+    align-items: baseline;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    
+}
