@@ -21,6 +21,16 @@ nav {
     text-align: center;
 }
 
+#index-splash-image-container {
+    width: 100%;
+}
+
+#splash-image {
+    max-width: 100%;
+    object-fit: contain;
+}
+
+
 .nav-link {
-    
+
 }
