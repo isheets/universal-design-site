@@ -15,5 +15,12 @@ header {
 nav {
     display: flex;
     justify-content: space-around;
+}
+
+#index-welcome-message {
+    text-align: center;
+}
+
+.nav-link {
     
 }
