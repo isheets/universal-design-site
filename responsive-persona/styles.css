@@ -112,6 +112,7 @@ header {
 .photo {
   float: right;
   padding: 000 1em;
+  width: 25%;
 }
 .photo img {
   -webkit-border-radius: 3px;
@@ -123,6 +124,8 @@ header {
   background-color: #fff;
   border: 1px solid #ccc;
   padding: 5px;
+  object-fit: contain;
+  max-width: 100%;
 }
 .persona {
   clear: all;
