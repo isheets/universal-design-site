@@ -63,18 +63,18 @@ body{
 }
 
 h1 {
-    font-size: 200%;
+    font-size: 3.5em;
     font-weight: bold;
 }
 h2 {
-    font-size: 160%;
+    font-size: 2em;
     font-weight: bold;
 }
 h3 {
-    font-size: 140%;
+    font-size: 1.5em;
 }
 h4 {
-    font-size: 120%;
+    font-size: 1.25em;
 }
 
 
@@ -84,27 +84,57 @@ header {
     align-items: baseline;
 }
 
+#splash-image {
+    max-width: 90%;
+    object-fit: contain;
+}
+
+#lastSentence{
+	font-size: 25px;
+	color: orangered;
+	font-weight: 200;
+}
+
+a {
+
+}
+a:active {
+
+}
+
+a:focus {
+    outline: green dashed 1px;
+}
+
+a:hover{
+	color: goldenrod;
+}
+
 nav {
     display: flex;
     justify-content: flex-end;
 }
 
-#index-welcome-message {
-    text-align: center;
-}
-
-#index-splash-image-container {
-    max-width: 50%;
-    margin: auto;
-    margin-top: 15px;
-}
-
-#splash-image {
-    max-width: 100%;
-    object-fit: contain;
-}
-
-
 .nav-link {
     margin-right: 15px;
+    font-size: 
+}
+.nav-link:active  {
+    
+}
+.nav-link:focus  {
+    
+}
+
+.nav-link:hover  {
+    
+}
+
+
+#index-welcome-grid {
+    width: 90%;
+}
+
+
+@media (max-width : 936px ){
 }
