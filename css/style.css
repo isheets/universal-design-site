@@ -1,3 +1,6 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css?family=Monda:400,700|Raleway&display=swap');
+
 /* 
    CSS RESET
 
@@ -56,6 +59,7 @@ table {
 
 html {
     width: 100%;
+    
 }
 
 body{
@@ -64,24 +68,47 @@ body{
 
 h1 {
     font-size: 3.5em;
-    font-weight: bold;
+    font-weight: 700;
+    font-family: 'Monda', sans-serif;
+
 }
 h2 {
     font-size: 2em;
-    font-weight: bold;
+    font-weight: 700;
+    font-family: 'Monda', sans-serif;
 }
 h3 {
-    font-size: 1.5em;
+    font-weight: 500;
+    font-family: 'Monda', sans-serif;
 }
 h4 {
-    font-size: 1.25em;
+    font-weight: 500;
+    font-family: 'Monda', sans-serif;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
 }
 
 
 header {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 20px;
     display: grid;
     grid-template-columns: 33% 67%;
     align-items: baseline;
+    background-color: #ABADA9;
+    padding-bottom: 20px;
+    box-shadow: 3px 0 3px 3px black;
+    position: sticky;
+    top: 0;
+}
+
+main {
+    background-color: #EFEFEF;
+    padding-top: 20px;
+    width: 100%;
 }
 
 #splash-image {
@@ -116,8 +143,12 @@ nav {
 }
 
 .nav-link {
+    font-family: 'Monda', sans-serif;
+    text-decoration: none;
     margin-right: 15px;
-    font-size: 
+    font-size: 1.2em;
+    background-color: black;
+    color: #ABADA9;
 }
 .nav-link:active  {
     
@@ -132,7 +163,20 @@ nav {
 
 
 #index-welcome-grid {
-    width: 90%;
+    margin: auto;
+    width: 85%;
+    display: grid;
+    grid-template-columns: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+#tagline {
+    margin-top: 10px;
+}
+
+#splash-image {
+    margin-top: 15px;
 }
 
 
