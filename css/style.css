@@ -244,6 +244,9 @@ nav {
 }
 
 @media (max-width: 750px ){
+    h1 {
+        font-size: 4em;
+    }
     header {
         grid-template-columns: 100%;
         row-gap: 10px;
