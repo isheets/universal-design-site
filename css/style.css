@@ -1,7 +1,7 @@
 /* google fonts */
-@import url('https://fonts.googleapis.com/css?family=Monda:400,700|Raleway&display=swap');
+/*@import url('https://fonts.googleapis.com/css?family=Monda:400,700|Raleway&display=swap');
 
-/* 
+
    CSS RESET
 
    http://meyerweb.com/eric/tools/css/reset/ 
@@ -67,28 +67,33 @@ body{
 }
 
 h1 {
-    font-size: 3.5em;
+    font-size: 5.5em;
     font-weight: 700;
-    font-family: 'Monda', sans-serif;
+    font-family: 'News Cycle', sans-serif;
+    color: #bf6c07;
 
 }
 h2 {
     font-size: 2em;
     font-weight: 700;
-    font-family: 'Monda', sans-serif;
+    font-family: 'News Cycle', sans-serif;
 }
 h3 {
     font-weight: 500;
-    font-family: 'Monda', sans-serif;
     font-size: 1.5em;
+    font-family: 'News Cycle', sans-serif;
+
 }
 h4 {
     font-weight: 500;
-    font-family: 'Monda', sans-serif;
+    font-family: 'News Cycle', sans-serif;
+
 }
 
 p {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'News Cycle', sans-serif;
+
+
 }
 
 
@@ -118,8 +123,8 @@ main {
 }
 
 #lastSentence{
-	font-size: 25px;
-	color: orangered;
+	font-size: 3em;
+	color: #bf6c07;
 	font-weight: 200;
 }
 
@@ -141,10 +146,11 @@ a:hover{
 nav {
     display: flex;
     justify-content: flex-end;
+    font-size: .8em;
 }
 
 .nav-link {
-    font-family: 'Monda', sans-serif;
+    font-family: 'News Cycle', sans-serif;
     text-decoration: none;
     margin-right: 15px;
     font-size: 1.5em;
