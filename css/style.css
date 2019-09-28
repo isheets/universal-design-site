@@ -79,13 +79,14 @@ h2 {
     font-family: 'News Cycle', sans-serif;
 }
 h3 {
-    font-weight: 500;
+    font-weight: 700;
     font-size: 1.5em;
     font-family: 'News Cycle', sans-serif;
 
 }
 h4 {
-    font-weight: 500;
+    font-size: 1.2em;
+    font-weight: 700;
     font-family: 'News Cycle', sans-serif;
 
 }
@@ -129,6 +130,9 @@ main {
 }
 
 a {
+    text-decoration: none;
+    font-family: 'News Cycle', sans-serif;
+    color: #bf6c07;
 
 }
 a:active {
@@ -140,7 +144,8 @@ a:focus {
 }
 
 a:hover{
-	color: goldenrod;
+    background-color: #bf6c07;
+	color: #EFEFEF;
 }
 
 nav {
@@ -168,7 +173,7 @@ nav {
 }
 
 .nav-link:hover  {
-    color: black;
+    color: #bf6c07;
     background-color: #ABADA9;
 }
 
@@ -213,6 +218,14 @@ nav {
     object-fit: contain;
 }
 
+#glampsites-container {
+    margin: auto;
+    width: 85%;
+}
+
+.listing-head {
+    text-align: center;
+}
 
 @media (max-width: 750px ){
     header {
