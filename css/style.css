@@ -64,6 +64,7 @@ html {
 
 body{
     width: 100%;
+    background-color: #EFEFEF;
 }
 
 h1 {
@@ -161,9 +162,9 @@ nav {
     margin-right: 15px;
     font-size: 1.5em;
     font-weight: 700;
-    padding: 5px;
+    padding: 10px;
     background-color: black;
-    color: #ABADA9;
+    color: #EFEFEF;
     border-radius: 3px;
 }
 .nav-link:active  {
@@ -230,9 +231,22 @@ nav {
     text-align: center;
 }
 
+.glampsite-listing {
+    margin-top: 20px;
+}
+
+.glampsite-listing > article {
+    margin-top: 15px;
+}
+
+.glampsite-listing > article > p{
+    margin-top: 5px;
+}
+
 @media (max-width: 750px ){
     header {
         grid-template-columns: 100%;
+        row-gap: 10px;
         text-align: center;
     }
     nav {
