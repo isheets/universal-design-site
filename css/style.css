@@ -95,7 +95,7 @@ h4 {
 
 p {
     font-family: 'News Cycle', sans-serif;
-
+    line-height: 140%;
 
 }
 
@@ -216,7 +216,7 @@ nav {
     margin-top: 15px;
     width: 100%;
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 50% 50%;
 }
 
 .tip-pic {
@@ -257,7 +257,8 @@ label {
 
 #glampsites-container {
     margin: auto;
-    width: 85%;
+    width: 60%;
+    
 }
 
 .listing-head {
@@ -276,18 +277,20 @@ label {
     margin-top: 5px;
 }
 
-@media (max-width: 750px ){
+@media (max-width: 47em ){
     h1 {
-        font-size: 4em;
+        font-size: 3em;
     }
     header {
         grid-template-columns: 100%;
         row-gap: 10px;
         text-align: center;
         position: relative;
+        padding-top: 5px;
+        padding-bottom: 5px;
     }
     nav {
-        margin-top: 15px;
+        margin-top: 5px;
         justify-content: center;
     }
     .tip-grid{
@@ -299,6 +302,9 @@ label {
     }
     .tip-head{
         text-align: center;
+    }
+    #glampsites-container {
+        width: 90%;
     }
     .submitTip {
         width: 100%;
